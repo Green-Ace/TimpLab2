@@ -101,18 +101,29 @@ PART 2
        
    12) git branch -d patch1
 
+
+
+
        PART 3
     1)git checkout -b patch2
+    
     
     
     
     2) clang-format -style=Mozilla -i hello_world.cpp
     
      
+     
+     
  
     3)git commit -am "changed format" 
       git push origin patch2 
+      
+      
+      
+      
       ![изображение](https://user-images.githubusercontent.com/112771063/223527520-ff8988cc-17de-4ead-b630-00d2dee3b613.png)
+      
       
       
       
@@ -122,7 +133,10 @@ PART 2
     
     
     
+    
+    
     5) ![изображение](https://user-images.githubusercontent.com/112771063/223529782-9fee2142-ec79-47ef-ad90-d76ec522d36e.png)
+    
     
     
     
@@ -136,11 +150,15 @@ PART 2
       
       
       
+      
       7) git push --force origin patch2
        
        
        
+       
        8) ![изображение](https://user-images.githubusercontent.com/112771063/223536691-d0d53e72-96dd-46fb-829b-edb76575d5a9.png)
+
+
 
 
 
