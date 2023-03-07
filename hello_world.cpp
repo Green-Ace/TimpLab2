@@ -1,8 +1,8 @@
 #include <iostream>
 int main(){
-	std::string name; // создаем переменную
+	std::string name; // create a variable
 	std::cout << "Your name:" << std::endl;
-	std::cin >> name; // ввод имени в переменную
-	std::cout << "Hello world from " << name; //вывод программы
+	std::cin >> name; // entering a name into a variable
+	std::cout << "Hello world from " << name; //program output
 	return 0;
 }
